@@ -15,7 +15,7 @@ script:
 branches:
   only:
   - master
-  - development
+  - minimal
 deploy:
 - provider: script
   script: ./nitrux-repository-util.sh package/*.deb
