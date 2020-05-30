@@ -20,6 +20,8 @@ deploy:
 - provider: script
   script: ./nitrux-repository-util.sh package/*.deb
   skip_cleanup: true
+  on:
+    branch: minimal
 notifications:
   email: false
   slack:
