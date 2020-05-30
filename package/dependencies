@@ -27,17 +27,6 @@ plymouth-theme-nitrux
 #    = Locales =
 #   == Unless requested use English by default ==
 
-language-pack-de
-language-pack-de-base
-language-pack-en
-language-pack-en-base
-language-pack-es
-language-pack-es-base
-language-pack-fr
-language-pack-fr-base
-language-pack-pt
-language-pack-pt-base
-
 #    = Supporting bits =
 
 acpi-support
@@ -52,24 +41,10 @@ cups-bsd
 curl
 dc
 dnsmasq
-firejail
-firejail-profiles
-fonts-arphic-ukai
-fonts-arphic-uming
-fonts-freefont-ttf
-fonts-ipafont-gothic
-fonts-ipafont-mincho
-fonts-liberation
-fonts-opensymbol
 fonts-powerline
-fonts-unfonts-core
 fuse3
-fwupd
-fwupdate
 geoclue-2.0
-ghostscript-x
 git
-gnome-keyring
 gnupg-agent
 haveged
 inputattach
@@ -79,11 +54,7 @@ ipxe-qemu
 iucode-tool
 laptop-detect
 libavahi-glib1
-libdbus-glib-1-2
-libdbusmenu-gtk3-4
 libgeoclue-2-0
-libkrb5-3
-libqt5webengine5
 libslirp0
 linuxbrew-wrapper
 mscompress
@@ -99,8 +70,6 @@ pm-utils
 policykit-desktop-privileges
 powerline
 preload
-python-cairo
-python-gi-cairo
 python-setuptools
 rfkill
 rsync
