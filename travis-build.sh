@@ -13,8 +13,8 @@ echo "
 Section: misc
 Priority: optional
 Homepage: https://nxos.org
-Package: nx-desktop
-Version: 1.4.9.48-${GIT_COMMIT}
+Package: nx-desktop-minimal
+Version: 0.0.0-${GIT_COMMIT}
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Depends: $DEPENDS
 Architecture: amd64
