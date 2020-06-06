@@ -7,6 +7,19 @@ nitrux-minimal
 nitrux-standard
 nitrux-hardware-drivers-minimal
 
+#    = CLI Apps =
+
+cmus
+dc
+ftp
+hdparm
+htop
+mc
+ncdu
+nsnake
+w3m
+wget
+
 #    = Network Services =
 
 mobile-broadband-provider-info
@@ -16,7 +29,14 @@ mobile-broadband-provider-info
 gstreamer1.0-pulseaudio
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
+gstreamer1.0-libav
 pulseaudio
+
+#     == Plasma ==
+
+#     == Plasma Wayland ==
+
+#   = Other KDE or Qt Software =
 
 #    = NX Desktop Customization Layer =
 
@@ -27,6 +47,13 @@ plymouth-theme-nitrux
 #    = Locales =
 #   == Unless requested use English by default ==
 
+language-pack-de
+language-pack-de-base
+language-pack-en
+language-pack-en-base
+language-pack-es
+language-pack-es-base
+
 #    = Supporting bits =
 
 acpi-support
@@ -34,15 +61,18 @@ acpid
 alsa-base
 amd64-microcode
 avahi-autoipd
+axel
 binutils-multiarch
 build-essential
+bzip2
 coreutils
 curl
-dc
 dnsmasq
-fonts-powerline
+firejail
+firejail-profiles
 fuse3
-geoclue-2.0
+fwupd
+fwupdate
 git
 gnupg-agent
 haveged
@@ -52,13 +82,9 @@ intel-microcode
 ipxe-qemu
 iucode-tool
 laptop-detect
-libavahi-glib1
-libgeoclue-2-0
 libslirp0
 linuxbrew-wrapper
-mscompress
 npm
-nsnake
 openresolv
 ovmf
 p7zip-full
@@ -66,10 +92,8 @@ pcmciautils
 plymouth
 plymouth-label
 pm-utils
-policykit-desktop-privileges
 powerline
 preload
-python-setuptools
 rfkill
 rsync
 rsyslog
