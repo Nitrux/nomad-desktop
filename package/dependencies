@@ -95,7 +95,6 @@ powerline
 preload
 rfkill
 rsync
-rsyslog
 sbsigntool
 seabios
 secureboot-db
