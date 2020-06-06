@@ -14,7 +14,7 @@ Section: misc
 Priority: optional
 Homepage: https://nxos.org
 Package: nx-desktop-minimal
-Version: 0.0.3-${GIT_COMMIT}
+Version: 0.0.4-${GIT_COMMIT}
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Depends: $DEPENDS
 Architecture: amd64
