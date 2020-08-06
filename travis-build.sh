@@ -3,22 +3,18 @@
 apt -qq update
 apt -qq -yy install equivs curl git
 
-cd package/
+deps=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' package/dependencies | paste -sd ,)
+git_commit=$(git rev-parse --short HEAD)
 
-DEPENDS=$( echo $(sed -e '/^#.*$/d; /^$/d; /^[[:space:]].*$/d' dependencies) | tr ' ' ',')
-
-GIT_COMMIT=$(git rev-parse --short HEAD)
-
-echo "
-Section: misc
-Priority: optional
-Homepage: https://nxos.org
-Package: nx-desktop
-Version: 1.4.9.50-${GIT_COMMIT}
-Maintainer: Uri Herrera <uri_herrera@nxos.org>
-Depends: $DEPENDS
-Architecture: amd64
-Description: NX Desktop metapackage for Nitrux.
-" > configuration
+> configuration printf "%s\n" \
+	"Section: misc" \
+	"Priority: optional" \
+	"Homepage: https://nxos.org" \
+	"Package: nx-desktop" \
+	"Version: 1.4.9.47-$git_commit" \
+	"Maintainer: Uri Herrera <uri_herrera@nxos.org>" \
+	"Depends: $deps" \
+	"Architecture: amd64" \
+	"Description: NX Desktop metapackage for Nitrux."
 
 equivs-build configuration
