@@ -220,6 +220,7 @@ secureboot-db
 ssh-askpass
 ubuntu-drivers-common
 udisks2
+unrar
 unzip
 update-inetd
 upower
