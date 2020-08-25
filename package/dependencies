@@ -70,13 +70,13 @@ user-manager
 
 #     == Plasma Wayland ==
 
-kwayland-integration 
-kwin-wayland 
-kwin-wayland-backend-drm 
-libqt5waylandclient5 
-libqt5waylandcompositor5 
-plasma-workspace-wayland 
-qtwayland5 
+kwayland-integration
+kwin-wayland
+kwin-wayland-backend-drm
+libqt5waylandclient5
+libqt5waylandcompositor5
+plasma-workspace-wayland
+qtwayland5
 xwayland
 
 #   = Other KDE or Qt Software =
@@ -99,7 +99,6 @@ fonts-nx-desktop
 grub2-theme-nitrux
 kvantum-theme-kvnitrux
 luv-icon-theme
-nitrux-vfio-enablement
 nitrux-wallpapers-free
 nx-audio-applet
 nx-clock-applet
@@ -180,7 +179,6 @@ haveged
 inputattach
 install-info
 intel-microcode
-ipxe-qemu
 iucode-tool
 laptop-detect
 libavahi-glib1
@@ -190,13 +188,10 @@ libexiv2-27
 libgeoclue-2-0
 libkrb5-3
 libqt5webengine5
-libslirp0
 libstartup-notification0
-linuxbrew-wrapper
 mscompress
 npm
 openresolv
-ovmf
 p7zip-full
 pcmciautils
 plymouth
@@ -215,7 +210,6 @@ rfkill
 rsync
 rsyslog
 sbsigntool
-seabios
 secureboot-db
 ssh-askpass
 ubuntu-drivers-common
