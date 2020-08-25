@@ -171,11 +171,13 @@ laptop-detect
 libavahi-glib1
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
+libelf1
 libexiv2-27
 libgeoclue-2-0
 libkrb5-3
 libqt5webengine5
 libstartup-notification0
+libxvmc1
 mscompress
 openresolv
 p7zip-full
