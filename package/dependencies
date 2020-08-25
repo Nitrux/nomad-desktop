@@ -7,19 +7,6 @@ nitrux-minimal
 nitrux-standard
 nitrux-hardware-drivers
 
-#    = CLI Apps =
-
-cmus
-dc
-ftp
-hdparm
-htop
-mc
-ncdu
-nsnake
-w3m
-wget
-
 #    = Network Services =
 
 mobile-broadband-provider-info
