@@ -99,9 +99,7 @@ nx-notifications-applet
 nx-plasma-look-and-feel
 nx-simplemenu-applet
 nx-systemtray-applet
-nx-welcome-wizard
 plymouth-theme-nitrux
-qt5-style-kvantum
 
 #    = Locales =
 #   == Unless requested use English by default ==
@@ -135,14 +133,12 @@ amd64-microcode
 appmenu-gtk2-module
 appmenu-gtk3-module
 avahi-autoipd
-axel
 binutils-multiarch
 build-essential
 bzip2
 cifs-utils
 coreutils
 cups-bsd
-curl
 desktop-file-utils
 dnsmasq
 firejail
@@ -161,7 +157,6 @@ fwupd
 fwupdate
 geoclue-2.0
 ghostscript-x
-git
 gnome-keyring
 gnupg-agent
 haveged
@@ -197,15 +192,12 @@ qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
-rsync
 rsyslog
 sbsigntool
 secureboot-db
 ssh-askpass
 ubuntu-drivers-common
 udisks2
-unrar
-unzip
 update-inetd
 upower
 usb-modeswitch
@@ -214,4 +206,38 @@ wireless-tools
 xdg-user-dirs
 xdg-utils
 xz-utils
-zip
+
+#    = XORG =
+
+x11-session-utils
+xinit
+xserver-xorg-core
+xserver-xorg-input-aiptek
+xserver-xorg-input-elographics
+xserver-xorg-input-wacom
+xserver-xorg-input-libinput
+xserver-xorg-input-joystick
+xserver-xorg-input-kbd
+xserver-xorg-input-mouse
+xserver-xorg-input-evdev
+xserver-xorg-input-mtrack
+xserver-xorg-input-mutouch
+xserver-xorg-input-synaptics
+xserver-xorg-video-amdgpu
+xserver-xorg-video-intel
+xserver-xorg-video-qxl
+xserver-xorg-video-radeon
+xserver-xorg-video-nvidia-450
+xserver-xorg-input-void
+xserver-xorg-video-vmware
+xserver-xorg-input-xwiimote
+
+#    = Wayland =
+
+libnvidia-egl-wayland1
+libwayland-client++0
+libwayland-client-extra++0
+libwayland-cursor++0
+libwayland-egl++0
+libwayland-egl1-mesa
+qml-module-qtwayland-compositor
