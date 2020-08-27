@@ -13,22 +13,22 @@ mobile-broadband-provider-info
 
 #    = Multimedia =
 
-gstreamer1.0-pulseaudio
+gstreamer1.0-libav
+gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
-gstreamer1.0-libav
+gstreamer1.0-pulseaudio
 gstreamer1.0-qt5
 libqt5multimedia5-plugins
-pulseaudio
 phonon4qt5
 phonon4qt5-backend-vlc
+pulseaudio
 qt5-image-formats-plugins
 
 #     == Plasma ==
 
 baloo-kf5
 bluedevil
-breeze-icon-theme
 frameworkintegration
 kde-cli-tools
 kde-config-gtk-style
@@ -47,7 +47,6 @@ kwin-style-breeze
 libkf5itemmodels5
 libkf5xmlgui-data
 libkf5xmlgui5
-oxygen-icon-theme
 oxygen-sounds
 plasma-framework
 plasma-nm
@@ -181,7 +180,6 @@ libstartup-notification0
 libxvmc1
 mscompress
 openresolv
-p7zip-full
 pcmciautils
 plymouth
 plymouth-label
@@ -215,26 +213,6 @@ xz-utils
 
 x11-session-utils
 xinit
-xserver-xorg-core
-xserver-xorg-input-aiptek
-xserver-xorg-input-elographics
-xserver-xorg-input-wacom
-xserver-xorg-input-libinput
-xserver-xorg-input-joystick
-xserver-xorg-input-kbd
-xserver-xorg-input-mouse
-xserver-xorg-input-evdev
-xserver-xorg-input-mtrack
-xserver-xorg-input-mutouch
-xserver-xorg-input-synaptics
-xserver-xorg-video-amdgpu
-xserver-xorg-video-intel
-xserver-xorg-video-qxl
-xserver-xorg-video-radeon
-xserver-xorg-video-nvidia-450
-xserver-xorg-input-void
-xserver-xorg-video-vmware
-xserver-xorg-input-xwiimote
 
 #    = Wayland =
 
