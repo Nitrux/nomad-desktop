@@ -48,9 +48,11 @@ libkf5itemmodels5
 libkf5xmlgui-data
 libkf5xmlgui5
 oxygen-sounds
+plasma-desktop
 plasma-framework
 plasma-nm
 plasma-pa
+plasma-thunderbolt
 plasma-vault
 polkit-kde-agent-1
 powerdevil
