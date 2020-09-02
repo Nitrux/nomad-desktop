@@ -28,7 +28,7 @@ qt5-image-formats-plugins
 #     == Plasma ==
 
 baloo-kf5
-bluedevil
+breeze-icon-theme
 frameworkintegration
 kde-cli-tools
 kde-config-gtk-style
@@ -44,15 +44,11 @@ kscreen
 kwin
 kwin-addons
 kwin-style-breeze
-libkf5itemmodels5
-libkf5xmlgui-data
-libkf5xmlgui5
+oxygen-icon-theme
 oxygen-sounds
-plasma-desktop
 plasma-framework
 plasma-nm
 plasma-pa
-plasma-thunderbolt
 plasma-vault
 polkit-kde-agent-1
 powerdevil
