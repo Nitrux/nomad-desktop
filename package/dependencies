@@ -28,6 +28,7 @@ qt5-image-formats-plugins
 #     == Plasma ==
 
 baloo-kf5
+bluedevil
 breeze-icon-theme
 frameworkintegration
 kde-cli-tools
@@ -78,12 +79,16 @@ gtk3-engines-breeze
 kup-backup
 libkf5contacts-data
 libkf5contacts5
+libkf5itemmodels5
 libkf5texteditor-bin
+libkf5xmlgui-data
+libkf5xmlgui5
+libqt5webkit5
 libqt5websockets5
+qml-module-qmltermwidget
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
 qml-module-qtwebview
-qml-module-qmltermwidget
 
 #    = NX Desktop Customization Layer =
 
