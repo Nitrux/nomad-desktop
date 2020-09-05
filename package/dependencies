@@ -49,6 +49,7 @@ plasma-thunderbolt
 plasma-vault
 polkit-kde-agent-1
 powerdevil
+sddm
 user-manager
 
 #     == Plasma Wayland ==
