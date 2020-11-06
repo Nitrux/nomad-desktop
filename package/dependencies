@@ -144,10 +144,14 @@ pulseaudio-module-bluetooth
 python-cairo
 python-gi-cairo
 python-setuptools
+python3-dbus
+python3-setproctitle
+python3-xlib
 qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
+rofi
 rng-tools
 rsyslog
 sbsigntool
