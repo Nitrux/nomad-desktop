@@ -105,7 +105,6 @@ amd64-microcode
 avahi-daemon
 binutils-multiarch
 coreutils
-cups-daemon
 desktop-file-utils
 dnsmasq
 firejail
