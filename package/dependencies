@@ -152,6 +152,7 @@ rng-tools
 rsyslog
 sbsigntool
 ssh-askpass
+ubuntu-drivers-common
 upower
 usb-modeswitch
 wireless-tools
