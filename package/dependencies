@@ -97,6 +97,7 @@ plymouth-theme-nitrux
 
 #    = Supporting bits =
 
+accountsservice
 acpi-support
 acpid
 alsa-base
