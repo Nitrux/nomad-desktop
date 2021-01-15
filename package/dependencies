@@ -121,6 +121,7 @@ fonts-unfonts-core
 ghostscript-x
 gnome-keyring
 gnupg-agent
+grahpviz
 haveged
 intel-microcode
 iucode-tool
@@ -148,8 +149,8 @@ qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
-rofi
 rng-tools
+rofi
 rsyslog
 sbsigntool
 ssh-askpass
