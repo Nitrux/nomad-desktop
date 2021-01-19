@@ -73,6 +73,7 @@ qml-module-qtwebview
 
 #    = NX Desktop Customization Layer =
 
+applet-window-buttons
 fonts-nx-desktop
 grub2-theme-nitrux
 kvantum-theme-kvnitrux
@@ -90,7 +91,6 @@ nx-plasma-look-and-feel
 nx-simplemenu-applet
 nx-systemtray-applet
 plymouth-theme-nitrux
-window-buttons-applet
 
 #    = Locales =
 #   == Unless requested use English by default ==
