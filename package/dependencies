@@ -90,6 +90,7 @@ nx-plasma-look-and-feel
 nx-simplemenu-applet
 nx-systemtray-applet
 plymouth-theme-nitrux
+window-buttons-applet
 
 #    = Locales =
 #   == Unless requested use English by default ==
