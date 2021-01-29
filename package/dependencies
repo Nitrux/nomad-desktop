@@ -28,11 +28,9 @@ pulseaudio
 grub2-theme-nitrux
 nx-desktop-apps-minimal
 nx-desktop-settings-minimal
-plymouth-theme-nitrux
 
 #    = Locales =
 #   == Unless requested use English by default ==
-
 
 #    = Supporting bits =
 
