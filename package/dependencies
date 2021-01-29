@@ -42,8 +42,6 @@ avahi-autoipd
 binutils-multiarch
 coreutils
 dnsmasq
-firejail
-firejail-profiles
 gnupg-agent
 haveged
 intel-microcode
