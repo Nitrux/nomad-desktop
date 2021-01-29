@@ -1,24 +1,21 @@
 #! /bin/sh
 
-apt-get --yes update
-apt-get --yes install wget equivs curl git
+apt -qq update
+apt -qq -yy install equivs curl git
 
-cd package/
+deps=$(sed -e '/^#.*$/d; /^$/d; /^\s*$/d' package/dependencies | paste -sd ,)
+git_commit=$(git rev-parse --short HEAD)
 
-DEPENDS=$( echo $(sed -e '/^#.*$/d; /^$/d; /^[[:space:]].*$/d' dependencies) | tr ' ' ',')
-
-GIT_COMMIT=$(git rev-parse --short HEAD)
-
-echo "
-Section: misc
-Priority: optional
-Homepage: https://nxos.org
-Package: nx-desktop-minimal
-Version: 0.0.6-${GIT_COMMIT}
-Maintainer: Uri Herrera <uri_herrera@nxos.org>
-Depends: $DEPENDS
-Architecture: amd64
-Description: NX Desktop metapackage for Nitrux.
-" > configuration
+> configuration printf "%s\n" \
+	"Section: misc" \
+	"Priority: optional" \
+	"Homepage: https://nxos.org" \
+	"Package: nx-desktop-minimal" \
+	"Version: 0.0.7-$git_commit" \
+	"Maintainer: Uri Herrera <uri_herrera@nxos.org>" \
+	"Depends: $deps" \
+	"Conflicts: nx-desktop-legacy, nx-desktop" \
+	"Architecture: amd64" \
+	"Description: NX Desktop metapackage for Nitrux."
 
 equivs-build configuration

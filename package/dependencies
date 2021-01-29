@@ -7,29 +7,14 @@ nitrux-minimal
 nitrux-standard
 nitrux-hardware-drivers-minimal
 
-#    = CLI Apps =
-
-cmus
-dc
-ftp
-hdparm
-htop
-mc
-ncdu
-nsnake
-w3m
-wget
-
 #    = Network Services =
 
-mobile-broadband-provider-info
+#    = Multimedia =
 
-#    = GUI infrastructure =
-
-gstreamer1.0-pulseaudio
+gstreamer1.0-libav
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
-gstreamer1.0-libav
+gstreamer1.0-pulseaudio
 pulseaudio
 
 #     == Plasma ==
@@ -41,18 +26,13 @@ pulseaudio
 #    = NX Desktop Customization Layer =
 
 grub2-theme-nitrux
+nx-desktop-apps-minimal
 nx-desktop-settings-minimal
 plymouth-theme-nitrux
 
 #    = Locales =
 #   == Unless requested use English by default ==
 
-language-pack-de
-language-pack-de-base
-language-pack-en
-language-pack-en-base
-language-pack-es
-language-pack-es-base
 
 #    = Supporting bits =
 
@@ -61,52 +41,25 @@ acpid
 alsa-base
 amd64-microcode
 avahi-autoipd
-axel
 binutils-multiarch
-build-essential
-bzip2
 coreutils
-curl
 dnsmasq
 firejail
 firejail-profiles
-fuse3
-fwupd
-fwupdate
-git
 gnupg-agent
 haveged
-inputattach
-install-info
 intel-microcode
-ipxe-qemu
 iucode-tool
 laptop-detect
-libslirp0
-linuxbrew-wrapper
 openresolv
-ovmf
-p7zip-full
-pcmciautils
-plymouth
-plymouth-label
 pm-utils
 powerline
 preload
 rfkill
-rsync
 sbsigntool
-seabios
-secureboot-db
 ssh-askpass
 ubuntu-drivers-common
-udisks2
-unzip
-update-inetd
 upower
 usb-modeswitch
-usb-modeswitch-data
 wireless-tools
 xdg-user-dirs
-xz-utils
-zip
