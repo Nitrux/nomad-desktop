@@ -28,6 +28,7 @@ pulseaudio
 grub2-theme-nitrux
 nx-desktop-apps-minimal
 nx-desktop-settings-minimal
+nx-plasma-look-and-feel
 
 #    = Locales =
 #   == Unless requested use English by default ==
