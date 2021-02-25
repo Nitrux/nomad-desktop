@@ -42,6 +42,7 @@ avahi-autoipd
 binutils-multiarch
 coreutils
 dnsmasq
+fonts-powerline
 gnupg-agent
 haveged
 intel-microcode
