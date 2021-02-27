@@ -3,9 +3,9 @@
 
 #    = Nitrux OS CORE =
 
-nitrux-minimal
-nitrux-standard
-nitrux-hardware-drivers-minimal
+nitrux-minimal-legacy
+nitrux-standard-legacy
+nitrux-hardware-drivers-legacy-minimal
 
 #    = Network Services =
 
@@ -26,8 +26,8 @@ pulseaudio
 #    = NX Desktop Customization Layer =
 
 grub2-theme-nitrux
-nx-desktop-apps-minimal
-nx-desktop-settings-minimal
+nx-desktop-apps-legacy-minimal
+nx-desktop-settings-legacy-minimal
 
 #    = Locales =
 #   == Unless requested use English by default ==
