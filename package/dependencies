@@ -3,9 +3,9 @@
 
 #    = Nitrux OS CORE =
 
-nitrux-minimal
-nitrux-standard
-nitrux-hardware-drivers
+nitrux-minimal-arm64
+nitrux-standard-arm64
+nitrux-hardware-drivers-arm64
 
 #    = Network Services =
 
@@ -81,8 +81,8 @@ luv-icon-theme
 nitrux-wallpapers-free
 nx-audio-applet
 nx-clock-applet
-nx-desktop-apps
-nx-desktop-settings
+nx-desktop-apps-arm64
+nx-desktop-settings-arm64
 nx-firewall
 nx-gtk-themes
 nx-networkmanagement-applet
@@ -103,7 +103,6 @@ accountsservice
 acpi-support
 acpid
 alsa-base
-amd64-microcode
 avahi-daemon
 binutils-multiarch
 coreutils
@@ -125,7 +124,6 @@ gnome-keyring
 gnupg-agent
 graphviz
 haveged
-intel-microcode
 iucode-tool
 laptop-detect
 libavahi-glib1
