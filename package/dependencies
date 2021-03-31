@@ -44,6 +44,7 @@ plasma-desktop
 plasma-nm
 plasma-pa
 plasma-thunderbolt
+plasma-widgets-addons
 plasma-vault
 polkit-kde-agent-1
 powerdevil
@@ -63,12 +64,19 @@ xwayland
 
 #   = Other KDE or Qt Software =
 
-gtk2-engines-murrine
-gtk3-engines-breeze
+kaccounts-integration
+kaccounts-providers
+kio-fuse
+kio-gdrive
 kup-backup
+plasma-browser-integration
+qml-module-org-kde-activities
+qml-module-org-kde-newstuff
 qml-module-qmltermwidget
 qml-module-qt-labs-platform
 qml-module-qtquick-shapes
+qml-module-qtquick-xmllistmodel
+qml-module-qtwayland-compositor
 qml-module-qtwebview
 
 #    = NX Desktop Customization Layer =
@@ -85,6 +93,7 @@ nx-desktop-apps
 nx-desktop-settings
 nx-firewall
 nx-gtk-themes
+nx-kstyle-theme
 nx-networkmanagement-applet
 nx-notifications-applet
 nx-plasma-look-and-feel
@@ -102,7 +111,6 @@ plymouth-theme-nitrux
 accountsservice
 acpi-support
 acpid
-alsa-base
 amd64-microcode
 avahi-daemon
 binutils-multiarch
@@ -124,6 +132,8 @@ ghostscript-x
 gnome-keyring
 gnupg-agent
 graphviz
+gtk2-engines-murrine
+gtk3-engines-breeze
 haveged
 intel-microcode
 iucode-tool
@@ -147,7 +157,6 @@ python-setuptools
 python3-dbus
 python3-setproctitle
 python3-xlib
-qml-module-qtquick-xmllistmodel
 qt5-gtk-platformtheme
 qttranslations5-l10n
 rfkill
@@ -176,4 +185,3 @@ libwayland-client-extra++0
 libwayland-cursor++0
 libwayland-egl++0
 libwayland-egl1-mesa
-qml-module-qtwayland-compositor
