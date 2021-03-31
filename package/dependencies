@@ -11,6 +11,7 @@ nitrux-hardware-drivers-legacy-minimal
 
 #    = Multimedia =
 
+alsa-utils
 gstreamer1.0-libav
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
@@ -36,7 +37,6 @@ nx-desktop-settings-legacy-minimal
 
 acpi-support
 acpid
-alsa-base
 amd64-microcode
 avahi-autoipd
 binutils-multiarch
