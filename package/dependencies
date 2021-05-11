@@ -13,6 +13,7 @@ nitrux-hardware-drivers
 
 alsa-utils
 gstreamer1.0-libav
+gstreamer1.0-pipewire
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
@@ -21,6 +22,10 @@ gstreamer1.0-qt5
 libqt5multimedia5-plugins
 phonon4qt5
 phonon4qt5-backend-vlc
+pipewire
+pipewire-audio-client-libraries
+pipewire-locales
+pipewire-tests
 qt5-image-formats-plugins
 
 #     == Plasma ==
@@ -142,6 +147,8 @@ libavahi-glib1
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
 libexiv2-27
+libspa-0.2-bluetooth
+libspa-0.2-jack
 libstartup-notification0
 libxvmc1
 mscompress
