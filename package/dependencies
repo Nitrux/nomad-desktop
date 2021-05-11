@@ -24,7 +24,6 @@ phonon4qt5
 phonon4qt5-backend-vlc
 pipewire
 pipewire-audio-client-libraries
-pipewire-locales
 pipewire-tests
 qt5-image-formats-plugins
 
