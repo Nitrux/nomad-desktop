@@ -78,6 +78,7 @@ qml-module-org-kde-activities
 qml-module-org-kde-newstuff
 qml-module-qmltermwidget
 qml-module-qt-labs-platform
+qml-module-qtquick-extras
 qml-module-qtquick-shapes
 qml-module-qtquick-xmllistmodel
 qml-module-qtwayland-compositor
