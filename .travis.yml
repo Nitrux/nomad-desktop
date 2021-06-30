@@ -10,7 +10,6 @@ script:
 branches:
   only:
     - master
-    - legacy
 
 deploy:
   - provider: script
