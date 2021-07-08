@@ -48,6 +48,8 @@ haveged
 intel-microcode
 iucode-tool
 laptop-detect
+libzstd1
+libzstd-dev
 openresolv
 pm-utils
 powerline
@@ -60,3 +62,4 @@ upower
 usb-modeswitch
 wireless-tools
 xdg-user-dirs
+zstd
