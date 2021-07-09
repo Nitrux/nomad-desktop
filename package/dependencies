@@ -125,7 +125,6 @@ gnupg-agent
 graphviz
 haveged
 iucode-tool
-laptop-detect
 libavahi-glib1
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
@@ -154,7 +153,6 @@ rofi
 rsyslog
 sbsigntool
 ssh-askpass
-ubuntu-drivers-common
 upower
 usb-modeswitch
 wireless-tools
