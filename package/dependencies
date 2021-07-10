@@ -75,7 +75,6 @@ qml-module-qtwebview
 
 applet-window-buttons
 fonts-nx-desktop
-grub2-theme-nitrux
 kvantum-theme-kvnitrux
 luv-icon-theme
 nitrux-wallpapers-free
@@ -124,7 +123,6 @@ gnome-keyring
 gnupg-agent
 graphviz
 haveged
-iucode-tool
 libavahi-glib1
 libdbus-glib-1-2
 libdbusmenu-gtk3-4
